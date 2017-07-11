@@ -1,0 +1,1 @@
+SELECT LOWER(country), COUNT(*) FROM Address GROUP BY country ORDER BY COUNT(*) DESC;
